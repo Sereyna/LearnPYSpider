@@ -1,0 +1,871 @@
+{
+    "code": 200,
+    "msg": "ok",
+    "message": "ok",
+    "data": [
+        {
+            "id": 32930,
+            "tagName": "代码重构",
+            "url": "https://bbs.csdn.net/forums/Refactor",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/e74577abf1334df999d385fc1446c4eb.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 263,
+            "tagName": "《新程序员》",
+            "url": "https://bbs.csdn.net/forums/Programmer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/68d4edcda4e947adbc0e641240018a15.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3597,
+            "tagName": "《Python编程无师自通》",
+            "url": "https://bbs.csdn.net/forums/the-self-taught-python-programmer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f17a38ba0d2c4c70bb0a83160f3b013f.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4410,
+            "tagName": "《暗时间》",
+            "url": "https://bbs.csdn.net/forums/dark-time",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/007e5f6ef60f4824b1d8ca5445179e0b.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3906,
+            "tagName": "《嵌入式C语言自我修养》",
+            "url": "https://bbs.csdn.net/forums/embedded-c-language",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b76050c1deb3413cafea0d2ca16305df.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4003,
+            "tagName": "《C++ Primer》",
+            "url": "https://bbs.csdn.net/forums/c-primer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/0aa5991684ad4465837714257fd54168.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3816,
+            "tagName": "《代码整洁之道》第2版",
+            "url": "https://bbs.csdn.net/forums/clean-code",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/578c78cedc6c4411841519b944e641a5.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3818,
+            "tagName": "《深度学习》",
+            "url": "https://bbs.csdn.net/forums/deep-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/09104ab42c904b5e8cbc8e9c4e095883.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4020,
+            "tagName": "《Vue.js 3.0 从入门到实战》",
+            "url": "https://bbs.csdn.net/forums/vuejs3-from-entry-to-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/fe6b4801aea44aa4bf8171f30653abb7.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3940,
+            "tagName": "《Python3网络爬虫开发实战》",
+            "url": "https://bbs.csdn.net/forums/python-web-crawler-development",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/60c6ecc84bb548d98dcaef9a80af870d.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4242,
+            "tagName": "《人工智能导论（第5版）》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-artificial-intelligence-5",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a6455caf7fac4b9185a75b2f8ab28a43.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3913,
+            "tagName": "《金融级IT架构》",
+            "url": "https://bbs.csdn.net/forums/financial-it-architecture-cloud-native",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f577f0fdfa0342babd14e2048d211f92.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3881,
+            "tagName": "《深入浅出Pandas》",
+            "url": "https://bbs.csdn.net/forums/dive-into-pandas",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d1ca5fa8f1b9400fb10a18d8e2b071e6.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3994,
+            "tagName": "《Python编程从入门到实践（第2版）",
+            "url": "https://bbs.csdn.net/forums/python-crash-course",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/3339e8441dde4a2aa86b10f305456cda.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3864,
+            "tagName": "《详解FPGA：人工智能时代的驱动引擎》",
+            "url": "https://bbs.csdn.net/forums/efficient-fpga",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/2f9abe71b4f64558889e8b75fe10754f.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3822,
+            "tagName": "《全程软件测试》",
+            "url": "https://bbs.csdn.net/forums/full-software-testing",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/71aaaad448864b3b9db4b24bad037853.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3821,
+            "tagName": "《深入剖析Nginx》",
+            "url": "https://bbs.csdn.net/forums/in-depth-analysis-nginx",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/fe7f03d7d6c44d3abb3abc2b72de8da2.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4042,
+            "tagName": "Python编程实战 妙趣横生的项目之旅",
+            "url": "https://bbs.csdn.net/forums/a-fun-project-tour-of-python-programming",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/67e4c6952386420d9727b344fc574a8f.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4001,
+            "tagName": "《深入理解计算机系统》",
+            "url": "https://bbs.csdn.net/forums/computer-systems",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ba5625123b7c40cb99174ac0867fea40.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3911,
+            "tagName": "《剑指Offer（专项突破版）》",
+            "url": "https://bbs.csdn.net/forums/sword-finger-offer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b9cc96c5d37349a6ae17ed385d12ca68.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4044,
+            "tagName": "《白话网络安全》",
+            "url": "https://bbs.csdn.net/forums/vernacular-network-security",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/122a0a666e6f44d7a3618b0a63138b58.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3938,
+            "tagName": "《C语言程序设计：现代方法》",
+            "url": "https://bbs.csdn.net/forums/c-programming",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/fe1122f0feaa4c7f97994ca5ab1da328.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4021,
+            "tagName": "Spring与Spring Boot实战",
+            "url": "https://bbs.csdn.net/forums/spring-and-spring-boot-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7b2bb9e60510450db869d92f73102dee.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3918,
+            "tagName": "《自然语言处理：基于预训练模型的方法》",
+            "url": "https://bbs.csdn.net/forums/natural-language-processing",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/512844b2c0944f5d90cefcfa80a772b3.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3877,
+            "tagName": "《阿里云云原生架构实践》",
+            "url": "https://bbs.csdn.net/forums/alibaba-cloud-native-architecture-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b5c088e0b6cb42349dadfd7ce892b572.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3867,
+            "tagName": "《鲲鹏架构入门与实战》",
+            "url": "https://bbs.csdn.net/forums/kunpeng-architecture",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7a9635e163df4fdfae7e307962754514.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3865,
+            "tagName": "《Java从入门到精通》（第6版）",
+            "url": "https://bbs.csdn.net/forums/java-from-entry-to-the-master",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/57fc014783dc4059adafbc3d4f7c7245.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4205,
+            "tagName": "《DevOps权威指南》",
+            "url": "https://bbs.csdn.net/forums/devops-authoritative-guide",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/231f1475d5a54f089f093453587a7e2b.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4041,
+            "tagName": "《大数据测试技术与实践（全彩印刷）》",
+            "url": "https://bbs.csdn.net/forums/big-data-testing-technology-and-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a2edf44f6c5443a7b5f9c8ca2fac6232.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4036,
+            "tagName": "《Linux就该这么学（第2版）》",
+            "url": "https://bbs.csdn.net/forums/how-to-learn-linux",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/686ab25311624f51935030e26b5037e3.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4025,
+            "tagName": "《轻松学 MySQL数据库从入门到实战》",
+            "url": "https://bbs.csdn.net/forums/mysql-database-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/852344ac06a74394960479f3dda90110.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4024,
+            "tagName": "Go 语言从基础到中台微服务实战开发",
+            "url": "https://bbs.csdn.net/forums/go-language-middle-microservices-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d12b101a984343dba15e103d2da1cb36.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4023,
+            "tagName": "Node+MongoDB+React",
+            "url": "https://bbs.csdn.net/forums/node-mongodb-react-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/e3fd86ae73a7489792dae42ecc9d0bc8.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4022,
+            "tagName": "《极简C++（案例·视频）》",
+            "url": "https://bbs.csdn.net/forums/minimal-c",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/1cd62716d6a2420e8ef4e8a757affe9b.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3999,
+            "tagName": "《鸿蒙应用程序开发》",
+            "url": "https://bbs.csdn.net/forums/hongmeng-application-development",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a29f67f4cd1b436a82b9867c80ff903c.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3909,
+            "tagName": "《软件开发的201个原则》",
+            "url": "https://bbs.csdn.net/forums/201-principles-of-software-development",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/eff8718dbd9242debba6b5a8180c7da2.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3908,
+            "tagName": "《C++服务器开发精髓》",
+            "url": "https://bbs.csdn.net/forums/c-plus-plus-server-development",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d590c115ec744686ba5d720e89f1f79d.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3904,
+            "tagName": "《业务架构·应用架构·数据架构实战》",
+            "url": "https://bbs.csdn.net/forums/business-application-data-architecture",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7b459b1dc28243e1b09b084247004e8e.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3879,
+            "tagName": "《数据库系统概念》",
+            "url": "https://bbs.csdn.net/forums/database-system-concepts",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/9426d8ded74b44ebb35a93d295428698.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3871,
+            "tagName": "《安卓Frida逆向与抓包实战》",
+            "url": "https://bbs.csdn.net/forums/android-frida-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f7271104de7548b9a73b06dc581f3818.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3870,
+            "tagName": "《C语言从入门到精通（第5版）》",
+            "url": "https://bbs.csdn.net/forums/c-from-entry-to-master",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6abe22437f0741a792bd80b8b56af3fb.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3814,
+            "tagName": "《我在硅谷管芯片》",
+            "url": "https://bbs.csdn.net/forums/managing-chips-in-silicon-valley",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/bb657e31e325445b80587db12017df3d.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 289886,
+            "tagName": "书香度年华",
+            "url": "https://bbs.csdn.net/forums/cad2e96f1a194aae91ed27b3f0d7d2c3",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a7ca0fc1f9a8482594f8320077cf4de8.png"
+        },
+        {
+            "id": 16942,
+            "tagName": "《开源之迷》",
+            "url": "https://bbs.csdn.net/forums/kaiyuanzhimi",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/39de2ddd31f7404f91a0c56375c96a9d.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4231,
+            "tagName": "《自然语言处理》",
+            "url": "https://bbs.csdn.net/forums/nature-language-processing",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b3912bc53b4a468da029f90b4572bfa9.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4227,
+            "tagName": "《操作系统教程（第6版)》",
+            "url": "https://bbs.csdn.net/forums/operating-system-tutorial",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7f4d6cfb37904b95937259d77e947472.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4206,
+            "tagName": "《产品经理方法论 》",
+            "url": "https://bbs.csdn.net/forums/product-manager-methodology",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/30c80dd4b18d46619ae092b608366072.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4037,
+            "tagName": "《UNIX传奇：历史与回忆》",
+            "url": "https://bbs.csdn.net/forums/unix-a-history-and-a-memoir",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/09ba75a1942046d9a5256acd5b553e0c.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4026,
+            "tagName": "《TensorFlow与Keras》",
+            "url": "https://bbs.csdn.net/forums/tensorflow-and-keras-python",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/277f3f941ac044e88ef71fcce434d94f.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4002,
+            "tagName": "《华为数据之道》",
+            "url": "https://bbs.csdn.net/forums/enterprise-data-at-huawei",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/9ce0f02dca544e97b4906ddc96d6f569.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3943,
+            "tagName": "《Go语言设计与实现》",
+            "url": "https://bbs.csdn.net/forums/go-language-design-implementation",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ca83955cd3cf475aa091dbe95667ca93.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3941,
+            "tagName": "《图神经网络导论》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-graph-neural-networks",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ba6ba5b59b0b447d85a1c41c510f0d05.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3939,
+            "tagName": "《人工智能简史（第2版）》",
+            "url": "https://bbs.csdn.net/forums/brief-history-of-ai",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/73784cc9a480437fb4d97c241d104262.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3882,
+            "tagName": "《数字化转型：企业破局的34个锦囊》",
+            "url": "https://bbs.csdn.net/forums/digital-transformation",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f502bcfc73194a95b885f468d7d4af4f.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3872,
+            "tagName": "《敏捷开发（纪念版）》",
+            "url": "https://bbs.csdn.net/forums/agile-principles",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/2fcf5b95c5fb4a9eb8aeb4b77c05fb6c.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3868,
+            "tagName": "《大疆TT教育无人机从入门到精通》",
+            "url": "https://bbs.csdn.net/forums/dji-tt-education-drones",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/bfe838c3f19141f7b0132c0d78410862.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3819,
+            "tagName": "《浪潮之巅》 第四版",
+            "url": "https://bbs.csdn.net/forums/on-top-of-tides",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ba545a34e0354a0984b93ef9c01e5210.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3817,
+            "tagName": "《重构 改善既有代码的设计》 第2版",
+            "url": "https://bbs.csdn.net/forums/refactoring",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/82fcb2bcfc714f13a48cf0308e2b41fb.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 285046,
+            "tagName": "古典小说",
+            "url": "https://bbs.csdn.net/forums/6c6caeb649dd41a49ddb0f8c4fb91797",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/db3f6ffe423a41b18212aa142e94bc34.png"
+        },
+        {
+            "id": 4243,
+            "tagName": "《计算机安全导论：深度实践》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-computer-security",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f19a177e861046ffbe71813f0ebc5967.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4240,
+            "tagName": "《Python编程基础及应用》",
+            "url": "https://bbs.csdn.net/forums/fundamentals-and-applications-of-python",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/768679031c9a40b183fff0f4cacb6f9e.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4239,
+            "tagName": "《Python程序设计及应用》",
+            "url": "https://bbs.csdn.net/forums/python-application-design",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7878e7f6314044d481d935b879044c4a.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4238,
+            "tagName": "《C语言程序设计实验与习题指导》",
+            "url": "https://bbs.csdn.net/forums/c-experiment-and-exercise-guidance",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/19a307f72eb44bc2adfa4bd5cf2104ab.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4237,
+            "tagName": "《C语言程序设计（第4版）》",
+            "url": "https://bbs.csdn.net/forums/c-programming-4",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/c3f63ef3348546a8a3cd3e4132726e54.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4232,
+            "tagName": "《智能之门》",
+            "url": "https://bbs.csdn.net/forums/gate-of-intelligence",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/8fcaeeeddab846cbbd9f2987a02400b1.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4226,
+            "tagName": "《计算机组成与设计》",
+            "url": "https://bbs.csdn.net/forums/computer-organization-and-design",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a8089f76d77944e3a5b871eadbcfee00.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4222,
+            "tagName": "《联邦学习实战》",
+            "url": "https://bbs.csdn.net/forums/practicing-federated-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/9aac2c31ae3144e590d2d464ee2f3725.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4211,
+            "tagName": "《代码随想录》",
+            "url": "https://bbs.csdn.net/forums/code-capriccio",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/5c687c20394c48748b306607c3b67cee.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4210,
+            "tagName": "PyTorch深度学习和图神经网络-2",
+            "url": "https://bbs.csdn.net/forums/pytorch-deep-learning-and-graph-neural-network-2",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/eb6467f73fbf4392b0f2bf4a7994de6d.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4209,
+            "tagName": "PyTorch深度学习和图神经网络-1",
+            "url": "https://bbs.csdn.net/forums/pytorch-deep-learning-and-graph-neural-network-1",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a78c8a56fe344b4b87e7520af9315dbe.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4208,
+            "tagName": "《C++并发编程实战（第2版）》",
+            "url": "https://bbs.csdn.net/forums/c-concurrency-in-action",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/849c087ebb374ddd8ec8e48e5c02523c.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3997,
+            "tagName": "《普林斯顿微积分读本（修订版）》",
+            "url": "https://bbs.csdn.net/forums/princeton-calculus-reader",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/2e3f022b1f8b43feb1874f7900181c2a.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3946,
+            "tagName": "《独角兽项目：数字化转型时代的开发传奇》",
+            "url": "https://bbs.csdn.net/forums/the-unicorn-project",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b056642fbd054022984f9a9f50a805e5.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3945,
+            "tagName": "《JavaScript悟道》",
+            "url": "https://bbs.csdn.net/forums/how-javascript-works",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/825655f8e654478cbddf8543be499f45.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3931,
+            "tagName": "《如何解决复杂问题》",
+            "url": "https://bbs.csdn.net/forums/what-evolution-teaches-us-about-creativity",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/e0baf77d4dbf429986b98eb2b21336ed.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3928,
+            "tagName": "《脑机穿越》",
+            "url": "https://bbs.csdn.net/forums/beyond-boundaries",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6a492f6ac4ef487696202b7a03b0b522.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3927,
+            "tagName": "《AI3.0》",
+            "url": "https://bbs.csdn.net/forums/artificial-intelligence-3",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/cbab73ad048a475394194bf649065b48.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3917,
+            "tagName": "《游戏设计艺术（第3版）》",
+            "url": "https://bbs.csdn.net/forums/the-art-of-games-design",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/3df249c9ddd44a12a2483139f4f365eb.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3915,
+            "tagName": "《迁移学习导论》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-transfer-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d69721c0a09c4e20b7acafbab2c22e20.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3907,
+            "tagName": "《Kubernetes权威指南》",
+            "url": "https://bbs.csdn.net/forums/kubernetes-authoritative-guide",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6a34ec4ad8614cd092c12519d40f03b1.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3903,
+            "tagName": "《图深度学习》",
+            "url": "https://bbs.csdn.net/forums/deep-learning-on-graphs",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6542422ba3b64a83be79f64473a5aa64.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3902,
+            "tagName": "《最强iOS和macOS安全宝典》",
+            "url": "https://bbs.csdn.net/forums/mac-os-and-ios-security",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/87fb1e20662244cc82984b506f58bae8.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3884,
+            "tagName": "《6G无线通信新征程》",
+            "url": "https://bbs.csdn.net/forums/6g-the-next-horizon",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/efa65d422f0b47ee886374e2f7330a62.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3883,
+            "tagName": "《机器学习中的加速一阶优化算法》",
+            "url": "https://bbs.csdn.net/forums/accelerated-optimization-for-machine-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/4d08cbad9e0b445e827d74648df36167.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3878,
+            "tagName": "《计算机体系结构基础》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-computer-architecture",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/2fa14239b7ca4024b6327f488ed6a0fb.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3876,
+            "tagName": "《Kubernetes实战》",
+            "url": "https://bbs.csdn.net/forums/kubernetes-best-practices",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/62370cbbafcb4791a619942f21f14eab.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3873,
+            "tagName": "《菜鸟轻松拿offer:软件测试工程师》",
+            "url": "https://bbs.csdn.net/forums/interview-tips-for-software-test-engineers",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/e6670a5e313145779eb04c0e7b888e32.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3866,
+            "tagName": "《从0到1：数字化转型孵化新商业的秘密》",
+            "url": "https://bbs.csdn.net/forums/zero-to-one",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/eeb5ea7c161a4ec8b8f9885362c1d149.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3863,
+            "tagName": "《机器学习观止——核心原理与实践》",
+            "url": "https://bbs.csdn.net/forums/machine-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/414fa9c93d454fc6bd7582a052337a4a.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3824,
+            "tagName": "《零基础学机器学习》",
+            "url": "https://bbs.csdn.net/forums/zero-basic-machine-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/beecd47904a94bdf94bba59ddc642d03.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 40903,
+            "tagName": "DEVOPS之家",
+            "url": "https://bbs.csdn.net/forums/myhome",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/aecc2328b7504111bb6b1494d42f9ff1.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4241,
+            "tagName": "《Python程序设计基础》",
+            "url": "https://bbs.csdn.net/forums/fundamentals-of-python-programming",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/070f405e8cdf4d458d51585aa7c889e9.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4236,
+            "tagName": "《数据仓库与数据分析教程（第2版）》",
+            "url": "https://bbs.csdn.net/forums/data-warehouse-and-data-analysis",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/00fd2c6a18d5461db36081d612d499a1.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4235,
+            "tagName": "《数据挖掘与知识发现（第3版）》",
+            "url": "https://bbs.csdn.net/forums/data-mining-and-knowledge-discovery",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/261a4ed777c6436d8619a46c7bae7829.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4234,
+            "tagName": "《数据科学与工程算法基础》",
+            "url": "https://bbs.csdn.net/forums/data-science-and-engineering-algorithms",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/24546baf6dcd424195697b31968b09ff.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4230,
+            "tagName": "《智能产品设计》",
+            "url": "https://bbs.csdn.net/forums/intelligent-product-design",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f4410bd2b93c49e2a97047704f500dd2.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4229,
+            "tagName": "《可视化导论》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-visualization",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/9d2043b568f949fe8873c074891b0629.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4228,
+            "tagName": "《人工智能导论：模型与算法》",
+            "url": "https://bbs.csdn.net/forums/introduction-to-artificial-intelligence",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a6657a34a72d4013bc391607b402536c.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4225,
+            "tagName": "《统计因果推理入门（翻译版）》",
+            "url": "https://bbs.csdn.net/forums/causal-inference-in-statistics",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/fe9cf628339d4ccdaf26385dd41ede06.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4224,
+            "tagName": "《软件研发效能提升之美》",
+            "url": "https://bbs.csdn.net/forums/the-beauty-of-improving-software-efficiency",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d00327a1c03648af826d7c14603312ca.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4207,
+            "tagName": "《Netty原理剖析与实战》",
+            "url": "https://bbs.csdn.net/forums/analysis-and-practice-of-netty",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7a547791edb046a7ba4020ae38904dfa.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4043,
+            "tagName": "《C和C++游戏趣味编程（全彩印刷）》",
+            "url": "https://bbs.csdn.net/forums/impractical-python-projects",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7b016de4ef4541b1892395a5d82a72a6.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4040,
+            "tagName": "《解构领域驱动设计》",
+            "url": "https://bbs.csdn.net/forums/domain-driven-design-explained",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/06d3439cbbfb4cccb82d6723d629a656.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4019,
+            "tagName": "《Java程序设计（视频讲解版）》",
+            "url": "https://bbs.csdn.net/forums/java-programming",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/68c0d32038334016a7ecfc0d154b8c41.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4018,
+            "tagName": "《深度学习教科书》",
+            "url": "https://bbs.csdn.net/forums/deep-learning-textbook",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/28ce8a1de17740709756989c87d06875.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4017,
+            "tagName": "Python 数据科学与人工智能应用实战",
+            "url": "https://bbs.csdn.net/forums/python-data-science-and-ai",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/92e8be127ab746e8aeab79c7753e15a1.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4006,
+            "tagName": "《程序员修炼之道：通向务实的最高境界》",
+            "url": "https://bbs.csdn.net/forums/the-pragmatic-programmer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ea1d5f59948342729c31b8963ef999c9.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4000,
+            "tagName": "《5G时代的AI技术应用详解》",
+            "url": "https://bbs.csdn.net/forums/application-of-ai-technology-in-5g-era",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ce980050a1bc458e95f057fe6ae917d9.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3998,
+            "tagName": "《人月神话(40周年中文纪念版)》",
+            "url": "https://bbs.csdn.net/forums/the-mythical-man-month",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/9f1416f166dc4a57a037c33b17a3583a.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3996,
+            "tagName": "《JavaScript高级程序设计第4版",
+            "url": "https://bbs.csdn.net/forums/professional-javascript-for-web-developers",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/efacc11cb84740bc94abdaba33d1b299.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3995,
+            "tagName": "《程序员的数学（第2版）》",
+            "url": "https://bbs.csdn.net/forums/math-for-programmers",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b9bf9cdc2d8d415a9189f01d851ffcd9.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3993,
+            "tagName": "《为什么：关于因果关系的新科学》",
+            "url": "https://bbs.csdn.net/forums/the-book-of-why",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/137e144343b7495cba6ce36bf98e7302.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3947,
+            "tagName": "《第一行代码——Linux命令行》",
+            "url": "https://bbs.csdn.net/forums/first-line-of-code-linux-command-line",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/c4243b8b3e524634adb2a4165f1fcad6.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3944,
+            "tagName": "《机器学习算法竞赛实战 》",
+            "url": "https://bbs.csdn.net/forums/ml-algorithm-competition",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d1a7780dc5de44b1b80b19cef905afa7.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3942,
+            "tagName": "《 深入剖析Kubernetes》",
+            "url": "https://bbs.csdn.net/forums/kuberbetes-deep-dive",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ac1ca182fd2d4db59e284bc0597b80e3.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3933,
+            "tagName": "《丹尼尔·希利斯讲计算机》",
+            "url": "https://bbs.csdn.net/forums/the-pattern-on-the-stone",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/f9920a4fc5d846dbb3726689d0625d74.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3932,
+            "tagName": "《无畏的天才》",
+            "url": "https://bbs.csdn.net/forums/fearless-genius",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/d96a38e785014afca9d7419310e0c49f.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3930,
+            "tagName": "《做对产品》",
+            "url": "https://bbs.csdn.net/forums/the-right-it",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/502513a2fee245929643b24ee833471b.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3929,
+            "tagName": "《影响力(全新升级版)》",
+            "url": "https://bbs.csdn.net/forums/influence",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/c4b6730be55e4eac8af374fa681fe444.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3926,
+            "tagName": "《福格行为模型》",
+            "url": "https://bbs.csdn.net/forums/tiny-habits",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/820dcbf749a844f6b09daa9cc2c70104.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3925,
+            "tagName": "《虚拟人》",
+            "url": "https://bbs.csdn.net/forums/virtually-human",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/8e64debe7d5c486f82c4b71e4902899d.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3924,
+            "tagName": "噪声",
+            "url": "https://bbs.csdn.net/forums/noise",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/01e0b7742fe74c7a825048a3d40d26ec.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3914,
+            "tagName": "《混合云架构》",
+            "url": "https://bbs.csdn.net/forums/hybrid-cloud-architecture",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/a2487ce7ee63476b98bc08b4d47a02e5.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3912,
+            "tagName": "《半小时漫画计算机》",
+            "url": "https://bbs.csdn.net/forums/half-an-hour-cartoon-computer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6fa32a5f25e847828f0c461b71141d63.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3910,
+            "tagName": "《漫画算法2：小灰的算法进阶》",
+            "url": "https://bbs.csdn.net/forums/comic-algorithm-2",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/181e52c4b2264a54b42236561615e4e6.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3905,
+            "tagName": "《模型思维：简化世界的人工智能模型》",
+            "url": "https://bbs.csdn.net/forums/model-thinking-ai",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/3887cc6aca984f90bfdca1e659449c4a.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3880,
+            "tagName": "《深入理解分布式事务：原理与实战》",
+            "url": "https://bbs.csdn.net/forums/dive-into-distributed-transaction",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/ba5fa49963724b829e82265f4b9561e9.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3875,
+            "tagName": "《JavaScript权威指南》",
+            "url": "https://bbs.csdn.net/forums/java-script",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/696db7288ebf4230a4795177bd9ecc71.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3874,
+            "tagName": "《凤凰架构》",
+            "url": "https://bbs.csdn.net/forums/fenix-architecture",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/1ce9c1076c534112957bf6ddc391e149.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3869,
+            "tagName": "《鸿蒙操作系统应用开发实践》",
+            "url": "https://bbs.csdn.net/forums/hongmeng-application-development-practice",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/8d738c43a316418cbdb8814d2097c593.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3861,
+            "tagName": "《统计学习要素》",
+            "url": "https://bbs.csdn.net/forums/the-elements-of-statistical-learning",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/7d90f0a72c34455e950d9718a5992aac.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3823,
+            "tagName": "《前端体验设计HTML5+CSS3》",
+            "url": "https://bbs.csdn.net/forums/hardboiled-web",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/03d2c50843f84db1a8afd8fb45e2b2d0.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3820,
+            "tagName": "《什么塑造了今天的编程世界》",
+            "url": "https://bbs.csdn.net/forums/what-shapes-todays-programming-world",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/8f6a299cf53e4dacad3deb69ff1c30b4.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4223,
+            "tagName": "《图神经网络：基础与前沿》",
+            "url": "https://bbs.csdn.net/forums/figure-neural-networks",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/5e6158987ba84a1e98beed38c6a3a9de.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4221,
+            "tagName": "《重学Java设计模式》",
+            "url": "https://bbs.csdn.net/forums/revisit-java-design-patterns",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/6290ed1c9847473489fb6a4fe026f6f8.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4220,
+            "tagName": "《Go语言底层原理剖析》",
+            "url": "https://bbs.csdn.net/forums/analysis-of-go-language",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/774d01b74c334189a393429a8f780de7.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4045,
+            "tagName": "《领域特定语言》",
+            "url": "https://bbs.csdn.net/forums/domain-specific-languages",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/0a87c04b94204386a0edf3527d57c5f3.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4039,
+            "tagName": "《CSS新世界》",
+            "url": "https://bbs.csdn.net/forums/css-of-new-world",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/47743052f8834d4296ce2e4d2b75168a.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4038,
+            "tagName": "《算法设计》",
+            "url": "https://bbs.csdn.net/forums/algorithm-design",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/b000f179ce3d42cfa84f830fa1c3e624.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4035,
+            "tagName": "《数据结构与算法之美（全彩印刷）》",
+            "url": "https://bbs.csdn.net/forums/data-structures-and-algorithms",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/bc65059766144ea9ab94777cfc0f51af.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4034,
+            "tagName": "《机器学习公式详解》",
+            "url": "https://bbs.csdn.net/forums/pumpkin-book",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/5327857cf584491ab3535f5225d06804.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4005,
+            "tagName": "《编码：隐匿在计算机软硬件背后的语言》",
+            "url": "https://bbs.csdn.net/forums/code-the-hidden-language-of-computer",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/96ce05464756473a9062e3f4f5cc8497.png?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 4004,
+            "tagName": "《labuladong的算法小抄》",
+            "url": "https://bbs.csdn.net/forums/labuladong-algorithm",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/cf8313412dbe45c995608e2a37ffe986.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        },
+        {
+            "id": 3862,
+            "tagName": "《程序员面试笔试通关宝典》",
+            "url": "https://bbs.csdn.net/forums/elements-of-programming-interviews",
+            "avatarUrl": "https://img-community.csdnimg.cn/avatar/e4858cabca0d48eab8cd239368b1bf9d.jpg?x-oss-process=image/resize,m_fixed,h_88,w_88"
+        }
+    ]
+}

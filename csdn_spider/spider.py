@@ -13,7 +13,7 @@ import requests
 from scrapy import Selector
 from models import Topic, Answer, Author
 from datetime import datetime
-
+import csv
 
 class CsdnSpider:
     def __init__(self):
@@ -130,7 +130,7 @@ class CsdnSpider:
 
         # print(f"这是1级索引：{self.index_name_1}")
         # print(f"这是2-1级索引：{self.index_name_2_1}, 共{len(self.index_name_2_1)}个")
-        print(f"这是2-2级索引：{self.index_name_2_2}, 共{len(self.index_name_2_2)}个")
+        # print(f"这是2-2级索引：{self.index_name_2_2}, 共{len(self.index_name_2_2)}个")
         return
     def get_second_url(self):
         # index = {}
@@ -141,15 +141,36 @@ class CsdnSpider:
         #     index[ind+1] = i
         #     url_second = f'{url_no_index}{ind+1}'
         #     html_text = self.get_html(url_second)
-        #     # html_json = json.dumps(html_text)
-        #     with open(f'data/tag_{ind+1}.txt', 'w') as w:
-        #         w.write(html_text)
-        #     # print(html_text)
+        #     text_json = json.loads(html_text)
+        #
+        #     # 如果需要保存到json文件
+        #     with open(f'data/tag_{ind+1}.json', 'w') as f:
+        #         json.dump(text_json, f, indent=4, ensure_ascii=False)
+        #
+        #     # 如果需要保存到csv文件
+        #     with open(f'data/tag_{ind+1}.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        #         writer = csv.writer(csvfile)
+        #
+        #         # 写入标题行
+        #         writer.writerow(text_json['data'][0].keys())
+        #
+        #         # 写入数据
+        #         for item in text_json['data']:
+        #             writer.writerow(item.values())
         # index = json.dumps(index)
-        # print(index)
-        with open('data/tag_1.txt', 'r') as w:
-            text = w.read()
-            
+
+        for i in range(36):
+            i = i+1
+            if i == 33:
+                i = i+1
+            with open(f'data/tag_{i}.txt', 'r') as w:
+                text = w.read()
+            text_json = json.loads(text)
+            if text_json['code'] != 200:
+                raise Exception(f"被反爬了！错误：{text_json['code']}")
+
+
+
         return
 
 if __name__ == '__main__':
