@@ -8,7 +8,7 @@ import json
 import execjs
 import requests
 from scrapy import Selector
-from models_db import Topic, Answer, Author
+from csdn_spider.models_db import Topic, Answer, Author
 from datetime import datetime
 
 
