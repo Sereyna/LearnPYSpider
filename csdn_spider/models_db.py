@@ -2,11 +2,12 @@ from peewee import *
 
 db = MySQLDatabase("csdn_spider", host="127.0.0.1", port=3306, user="root", password="123456")
 
+
 class BaseModel(Model):
     class Meta:
         database = db
 
-#设计数据表的时候有几个重要点一定要注意
+# 设计数据表的时候有几个重要点一定要注意
 """
 char类型， 要设置最大长度
 对于无法确定最大长度的字段，可以设置为Text
@@ -17,7 +18,7 @@ default和null=True
 
 class Topic(BaseModel):
     title = CharField()
-    content = TextField(default="")
+    description = TextField(default="")
     id = IntegerField(primary_key=True)
     author = CharField()
     create_time = DateTimeField()
@@ -53,5 +54,5 @@ class Author(BaseModel):
     follower_nums = IntegerField(default=0)  # 粉丝数
     following_nums = IntegerField(default=0)  # 关注数
 
-if __name__ == "__main__":
-    db.create_tables([Topic, Answer, Author])
+# if __name__ == "__main__":
+    # db.create_tables([Topic, Answer, Author])

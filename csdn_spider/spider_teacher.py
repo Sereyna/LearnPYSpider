@@ -8,7 +8,7 @@ import json
 import execjs
 import requests
 from scrapy import Selector
-from models import Topic, Answer, Author
+from models_db import Topic, Answer, Author
 from datetime import datetime
 
 
@@ -149,7 +149,7 @@ def parse_author(url):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
     }
     res_text = requests.get(url, headers=headers).text
-    user_text = re.search('window.__INITIAL_STATE__=(.*});</script>', res_text, re.IGNORECASE)
+    user_text = re.search('window.__INITIAL_STATE__=(.*});</script.json>', res_text, re.IGNORECASE)
     if user_text:
         author = Author()
         data = user_text.group(1)
@@ -198,7 +198,6 @@ def extract_topic(data_list):
         topic.title = content["topicTitle"]
         topic.content = content["description"]
         topic.create_time = datetime.strptime(content["createTime"], '%Y-%m-%d %H:%M:%S')
-        topic.create_time = datetime.strptime(content["createTime"], '%Y-%m-%d %H:%M:%S')
         topic.answer_nums = content["commentCount"]
         topic.click_nums = content["viewCount"]
         topic.praised_nums = content["diggNum"]
@@ -219,7 +218,7 @@ def parse_list(url):
     cagetory_rsp = requests.get(url)
     if cagetory_rsp.status_code != 200:
         raise Exception("反爬了")
-    title_search = re.search('window.__INITIAL_STATE__=(.*}});</script>', cagetory_rsp.text, re.IGNORECASE)
+    title_search = re.search('window.__INITIAL_STATE__=(.*}});</script.json>', cagetory_rsp.text, re.IGNORECASE)
     from urllib.parse import urlparse, parse_qs
 
     o = urlparse(url)
@@ -280,7 +279,7 @@ def parse_list(url):
 #                     cagetory_rsp = requests.get(url)
 #                     if code != 200:
 #                         raise Exception("反爬了")
-#                     title_search = re.search('window.__INITIAL_STATE__=(.*}});</script>', cagetory_rsp.text, re.IGNORECASE)
+#                     title_search = re.search('window.__INITIAL_STATE__=(.*}});</script.json>', cagetory_rsp.text, re.IGNORECASE)
 #
 #                     if title_search:
 #                         data = title_search.group(1)
