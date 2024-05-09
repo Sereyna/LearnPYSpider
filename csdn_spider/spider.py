@@ -1,3 +1,5 @@
+import time
+
 import requests as req
 from base64 import b64decode
 import hashlib
@@ -112,7 +114,7 @@ class CsdnSpider:
         }
         response = req.get(url, headers=headers)
         if response.status_code != 200:
-            raise Exception(f"{response.status_code} + 反爬了")
+            raise Exception(f"签名不通过，错误信息：{response.status_code}")
         return response.text
 
     """
@@ -178,34 +180,36 @@ class CsdnSpider:
 
     def get_community(self):
         url_no_index = "https://bizapi.csdn.net/community-cloud/v1/homepage/community/by/tag?deviceType=PC&tagId="
-        if not self.community:  # 判断社区数组是否为空
-            # 遍历获取所有社区的信息，包括ID，名称，URL，图片URL
-            for inn in self.index_name:
-                index_url = f'{url_no_index}{inn["id"]}'
-                try:
-                    html_text = self.get_html(index_url)
-                except Exception as e:
-                    print(f"爬取社区信息失败，失败原因为:{e}")
-                community_list_json = json.loads(html_text)["data"]
-                for clj_json in community_list_json:
-                    self.community.append(clj_json)
+        # 遍历获取所有社区的信息，包括ID，名称，URL，图片URL
+        if not self.index_name:
+            self.get_index()
+        for inn in self.index_name:
+            index_url = f'{url_no_index}{inn["id"]}'
+            try:
+                html_text = self.get_html(index_url)
+            except Exception as e:
+                print(f"爬取社区信息失败，失败原因为:{e}")
+                with open(f'exception_log', 'wa', encoding='utf-8') as w:
+                    w.writelines(f'爬取社区信息失败！社区ID：{inn["id"]}社区名称：{inn["tagName"]}，社区URL：{inn["url"]}')
+                continue
+            community_list_json = json.loads(html_text)["data"]
+            for clj_json in community_list_json:
+                self.community.append(clj_json)
 
-            # 如果需要保存到json文件
-            with open(f'data/community.json', 'w') as f:
-                json.dump(self.community, f, indent=4, ensure_ascii=False)
+        # 如果需要保存到json文件
+        with open(f'data/community.json', 'w') as f:
+            json.dump(self.community, f, indent=4, ensure_ascii=False)
 
-            # 如果需要保存到csv文件
-            with open(f'data/community.csv', 'w', newline='', encoding='utf-8') as csvfile:
-                writer = csv.writer(csvfile)
+        # 如果需要保存到csv文件
+        with open(f'data/community.csv', 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
 
-                # 写入标题行
-                writer.writerow(self.community[0].keys())
+            # 写入标题行
+            writer.writerow(self.community[0].keys())
 
-                # 写入数据
-                for item in self.community:
-                    writer.writerow(item.values())
-        else:
-            pass
+            # 写入数据
+            for item in self.community:
+                writer.writerow(item.values())
         return
 
     def read_all_info(self):
@@ -214,45 +218,66 @@ class CsdnSpider:
             self.community = json.loads(r.read())
 
     """
-    解析社区内容，提取出话题列表
+    解析社区内容，提取出话题列表data_list
 
     无输入
 
     无返回
     """
-    def parse_list(self):
-        # 读取json 或者csv都行，然后遍历
-        # 先爬一个社区：3240,哪吒社区,https://bbs.csdn.net/forums/nezha
-
-        # 将爬取的话题写入json文件
-        # id = 3240
-        # tagname = '哪吒社区'
-        # url = 'https://bbs.csdn.net/forums/nezha'
-        # headers = {
-        #     "user-agent": self.user_agent,
-        # }
-        # response = req.get(url, headers=headers)
-        # if response.status_code != 200:
-        #     raise Exception(f'反爬，错误为{response.status_code}')
-        # script = re.search("window.__INITIAL_STATE__= (.*});</script>", response.text, re.IGNORECASE)
-        # if script:
-        #     script = script.group(1)
-        #     script_json = json.loads(script)
-        #     with open(f'data/script.json', 'w') as f:
-        #         json.dump(script_json, f, indent=4, ensure_ascii=False)
+    def parse_topic_list(self):
+        if len(self.community) == 0:
+            self.get_community()
+        for clj in self.community:
+            community_url = clj["url"]
+            community_id = clj["id"]
+            headers = {
+                "user-agent": self.user_agent,
+            }
+            response = req.get(community_url, headers=headers)
+            if response.status_code != 200:
+                raise Exception(f'爬取社区页面失败，社区名称：{clj["tagName"]}，社区URL：{clj["url"]}，错误为{response.status_code}')
+            script = re.search("window.__INITIAL_STATE__= (.*});</script>", response.text, re.IGNORECASE)
+            if script:
+                script = script.group(1)
+                script_dict = json.loads(script)
+                page = 1
+                page_size = script_dict["pageData"]["data"]["baseInfo"]["page"]["pageSize"]
+                page_total = script_dict["pageData"]["data"]["baseInfo"]["page"]["total"]
+                tabid = script_dict["pageData"]["data"]["baseInfo"]["defaultActiveTab"]
+                data_list_dict = script_dict["pageData"]["dataList"]
+                data_list = data_list_dict[list(data_list_dict.keys())[0]]  # 获取字典第一个键值对的值
+                print(f"正在拉取社区{community_id}:第{page}页，共有{page_total}页")
+                self.extract_topic(data_list)
+                page += 1
+                time.sleep(5)
+                while page <= page_total:
+                    page_next_url = (f"https://bizapi.csdn.net/community-cloud/v1/community/listV2?"
+                                     f"communityId={community_id}&noMore=false&page={page}&pageSize={page_size}&tabId={tabid}&type=1&viewType=0")
+                    try:
+                        text = self.get_html(page_next_url)
+                    except Exception as e:
+                        print(f'错误信息：{e}')
+                        return
+                    datalist = json.loads(text)["data"]["dataList"]
+                    print(f"正在拉取社区{community_id}:第{page}页，共有{page_total}页")
+                    self.extract_topic(datalist)
+                    time.sleep(10)
+                    page += 1
+            else:
+                with open(f'exception_log', 'wa', encoding='utf-8') as w:
+                    w.writelines(f'爬取社区页面为空！社区名称：{clj["tagName"]}，社区URL：{clj["url"]}')
 
         with open(f'data/script.json', 'r') as r:
             script_dict = json.load(r)
-        page_size = script_dict["pageData"]["data"]["baseInfo"]["page"]["pageSize"]
-        page_total = script_dict["pageData"]["data"]["baseInfo"]["page"]["total"]
-        page_total_test = 2  # 测试用
-        tabid = script_dict["pageData"]["data"]["baseInfo"]["defaultActiveTab"]
-        datalist = script_dict["pageData"]["dataList"][0]
-        self.extract_topic(datalist)
 
-        # else:
-        #     raise Exception(f'{url} 爬取内容为空！')
+        # page_total_test = 2  # 测试用
+        data_list_dict = script_dict["pageData"]["dataList"]
+        data_list = data_list_dict[list(data_list_dict.keys())[0]]  # 获取字典第一个键值对的值
+        self.extract_topic(data_list)
 
+        return
+
+    def test(self):
         return
 
     """
@@ -273,12 +298,15 @@ class CsdnSpider:
         话题点赞数量 : topic.praised_nums
         话题作者 : topic.author
     """
-    def extract_topic(self, data_list):
-        for data in data_list:
+    def extract_topic(self, data_list_dict):
+        for data in data_list_dict:
             content = data["content"]
             topic = Topic()
             topic.title = content["topicTitle"]
-            topic.description = content["description"]
+            if content["description"]:
+                topic.description = content["description"]
+            else:
+                topic.description = ''
             topic.id = content["contentId"]
             topic.create_time = datetime.strptime(content["createTime"], '%Y-%m-%d %H:%M:%S')
             topic.answer_nums = content["commentCount"]
@@ -294,7 +322,7 @@ class CsdnSpider:
                 topic.save(force_insert=True)  # 强制插入
 
             # parse_topic(content["url"])
-            self.parse_author(f'https://blog.csdn.net/{content["username"]}')
+            # self.parse_author(f'https://blog.csdn.net/{content["username"]}')
         return
 
     def parse_author(self, url):
@@ -352,5 +380,6 @@ class CsdnSpider:
 if __name__ == '__main__':
     url1 = "https://ai.csdn.net/?utm_source=bbs"
     spider = CsdnSpider()
-    spider.read_all_info()
-
+    # spider.get_community()
+    # print(spider.community)
+    spider.parse_topic_list()

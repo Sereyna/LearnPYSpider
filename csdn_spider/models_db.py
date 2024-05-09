@@ -25,10 +25,10 @@ class Topic(BaseModel):
     answer_nums = IntegerField(default=0)
     click_nums = IntegerField(default=0)
     praised_nums = IntegerField(default=0)
-    jtl = FloatField(default=0.0)  # 结帖率
-    score = IntegerField(default=0)  # 赏分
-    status = CharField()  # 状态
-    last_answer_time = DateTimeField()
+    # jtl = FloatField(default=0.0)  # 结帖率
+    # score = IntegerField(default=0)  # 赏分
+    # status = CharField()  # 状态
+    # last_answer_time = DateTimeField()
 
 
 class Answer(BaseModel):
@@ -54,5 +54,6 @@ class Author(BaseModel):
     follower_nums = IntegerField(default=0)  # 粉丝数
     following_nums = IntegerField(default=0)  # 关注数
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
     # db.create_tables([Topic, Answer, Author])
+    db.create_tables([Topic])
